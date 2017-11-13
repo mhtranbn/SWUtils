@@ -2,7 +2,7 @@ pod init open -a Xcode Podfile
 pod spec create SWUtils
 git init
 git add . 
-git commit -m "Initial commit" 
+# git commit -m "Initial commit" 
 # git tag 0.1.0 
 # git remote add origin https://github.com/mhtranbn/SWUtils.git
 # git push -u origin master --tags

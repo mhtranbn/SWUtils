@@ -7,10 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3259395C1FB9804900889178 /* UIViewConstraintUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325939561FB9804800889178 /* UIViewConstraintUtils.swift */; };
+		3259395E1FB9804900889178 /* CMTouchThroughView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325939581FB9804800889178 /* CMTouchThroughView.swift */; };
+		3259395F1FB9804900889178 /* HTTPConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325939591FB9804900889178 /* HTTPConstants.swift */; };
+		325939611FB9804900889178 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3259395B1FB9804900889178 /* Operators.swift */; };
 		32A720E91FB97DC4004F8069 /* SWUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 32A720E71FB97DC4004F8069 /* SWUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		325939561FB9804800889178 /* UIViewConstraintUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewConstraintUtils.swift; sourceTree = "<group>"; };
+		325939581FB9804800889178 /* CMTouchThroughView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CMTouchThroughView.swift; sourceTree = "<group>"; };
+		325939591FB9804900889178 /* HTTPConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPConstants.swift; sourceTree = "<group>"; };
+		3259395B1FB9804900889178 /* Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
 		32A720E41FB97DC4004F8069 /* SWUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SWUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		32A720E71FB97DC4004F8069 /* SWUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWUtils.h; sourceTree = "<group>"; };
 		32A720E81FB97DC4004F8069 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +55,10 @@
 			isa = PBXGroup;
 			children = (
 				32A720E71FB97DC4004F8069 /* SWUtils.h */,
+				325939581FB9804800889178 /* CMTouchThroughView.swift */,
+				325939591FB9804900889178 /* HTTPConstants.swift */,
+				3259395B1FB9804900889178 /* Operators.swift */,
+				325939561FB9804800889178 /* UIViewConstraintUtils.swift */,
 				32A720E81FB97DC4004F8069 /* Info.plist */,
 			);
 			path = SWUtils;
@@ -95,6 +107,7 @@
 				TargetAttributes = {
 					32A720E31FB97DC4004F8069 = {
 						CreatedOnToolsVersion = 9.0.1;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -131,6 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3259395E1FB9804900889178 /* CMTouchThroughView.swift in Sources */,
+				3259395C1FB9804900889178 /* UIViewConstraintUtils.swift in Sources */,
+				3259395F1FB9804900889178 /* HTTPConstants.swift in Sources */,
+				325939611FB9804900889178 /* Operators.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +270,7 @@
 		32A720ED1FB97DC4004F8069 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -266,6 +284,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.gmosystem.net.SWUtils;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -274,6 +293,7 @@
 		32A720EE1FB97DC4004F8069 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
