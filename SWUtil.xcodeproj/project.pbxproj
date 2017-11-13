@@ -11,7 +11,7 @@
 		3259395E1FB9804900889178 /* CMTouchThroughView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325939581FB9804800889178 /* CMTouchThroughView.swift */; };
 		3259395F1FB9804900889178 /* HTTPConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325939591FB9804900889178 /* HTTPConstants.swift */; };
 		325939611FB9804900889178 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3259395B1FB9804900889178 /* Operators.swift */; };
-		32A720E91FB97DC4004F8069 /* SWUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 32A720E71FB97DC4004F8069 /* SWUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32A720E91FB97DC4004F8069 /* SWUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 32A720E71FB97DC4004F8069 /* SWUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,8 +19,8 @@
 		325939581FB9804800889178 /* CMTouchThroughView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CMTouchThroughView.swift; sourceTree = "<group>"; };
 		325939591FB9804900889178 /* HTTPConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPConstants.swift; sourceTree = "<group>"; };
 		3259395B1FB9804900889178 /* Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
-		32A720E41FB97DC4004F8069 /* SWUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SWUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		32A720E71FB97DC4004F8069 /* SWUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWUtils.h; sourceTree = "<group>"; };
+		32A720E41FB97DC4004F8069 /* SWUtil.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SWUtil.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		32A720E71FB97DC4004F8069 /* SWUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWUtil.h; sourceTree = "<group>"; };
 		32A720E81FB97DC4004F8069 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -46,7 +46,7 @@
 		32A720E51FB97DC4004F8069 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				32A720E41FB97DC4004F8069 /* SWUtils.framework */,
+				32A720E41FB97DC4004F8069 /* SWUtil.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,7 +54,7 @@
 		32A720E61FB97DC4004F8069 /* SWUtils */ = {
 			isa = PBXGroup;
 			children = (
-				32A720E71FB97DC4004F8069 /* SWUtils.h */,
+				32A720E71FB97DC4004F8069 /* SWUtil.h */,
 				325939581FB9804800889178 /* CMTouchThroughView.swift */,
 				325939591FB9804900889178 /* HTTPConstants.swift */,
 				3259395B1FB9804900889178 /* Operators.swift */,
@@ -71,16 +71,16 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32A720E91FB97DC4004F8069 /* SWUtils.h in Headers */,
+				32A720E91FB97DC4004F8069 /* SWUtil.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		32A720E31FB97DC4004F8069 /* SWUtils */ = {
+		32A720E31FB97DC4004F8069 /* SWUtil */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 32A720EC1FB97DC4004F8069 /* Build configuration list for PBXNativeTarget "SWUtils" */;
+			buildConfigurationList = 32A720EC1FB97DC4004F8069 /* Build configuration list for PBXNativeTarget "SWUtil" */;
 			buildPhases = (
 				32A720DF1FB97DC4004F8069 /* Sources */,
 				32A720E01FB97DC4004F8069 /* Frameworks */,
@@ -91,9 +91,9 @@
 			);
 			dependencies = (
 			);
-			name = SWUtils;
+			name = SWUtil;
 			productName = SWUtils;
-			productReference = 32A720E41FB97DC4004F8069 /* SWUtils.framework */;
+			productReference = 32A720E41FB97DC4004F8069 /* SWUtil.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -112,7 +112,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 32A720DE1FB97DC4004F8069 /* Build configuration list for PBXProject "SWUtils" */;
+			buildConfigurationList = 32A720DE1FB97DC4004F8069 /* Build configuration list for PBXProject "SWUtil" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -124,7 +124,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				32A720E31FB97DC4004F8069 /* SWUtils */,
+				32A720E31FB97DC4004F8069 /* SWUtil */,
 			);
 		};
 /* End PBXProject section */
@@ -315,7 +315,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		32A720DE1FB97DC4004F8069 /* Build configuration list for PBXProject "SWUtils" */ = {
+		32A720DE1FB97DC4004F8069 /* Build configuration list for PBXProject "SWUtil" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				32A720EA1FB97DC4004F8069 /* Debug */,
@@ -324,7 +324,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		32A720EC1FB97DC4004F8069 /* Build configuration list for PBXNativeTarget "SWUtils" */ = {
+		32A720EC1FB97DC4004F8069 /* Build configuration list for PBXNativeTarget "SWUtil" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				32A720ED1FB97DC4004F8069 /* Debug */,
