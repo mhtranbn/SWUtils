@@ -1,4 +1,4 @@
-
+#
 #  Be sure to run `pod spec lint SWUtil.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
@@ -17,14 +17,15 @@ Pod::Spec.new do |s|
 
   s.name         = "SWUtil"
   s.version      = "0.1.0"
-  s.summary      = "Util functions for Swift for developer."
+  s.summary      = "SWUtil is most of func common for developer."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = "CMTouchThroughView, CommonLog, Extensions, HTTPConstants, Operators, UIViewConstraintUtils"
+  s.description  = "String+encode, Time Date String+encode, Async, Device, Swift Validators, AttributedTextView, StatefulViewController, File, CryptoSwift, Timer, Format, Color Formatting, Localize-Swift, genstrings, SwiftyJSON, CurrencyTextField, Try it and feedback, many thanks!"
+
   s.homepage     = "https://github.com/mhtranbn/SWUtils.git"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
@@ -88,7 +89,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
   s.source_files = "SWUtils/**/*.{swift}"
-#   s.source_files  = 'SWUtils/*'
+#   s.source_files  = 'SWUtil/*'
 #   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
@@ -118,7 +119,9 @@ Pod::Spec.new do |s|
   # s.frameworks = "SomeFramework", "AnotherFramework"
 
   # s.library   = "iconv"
-  # s.libraries = "iconv", "xml2"  
+  # s.libraries = "iconv", "xml2"
+
+
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  If your library depends on compiler flags you can set them in the xcconfig hash
