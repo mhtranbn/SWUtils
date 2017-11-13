@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:SWUtils.xcodeproj">
+      location = "self:/Users/mhtran/SWUtils/SWUtil.xcodeproj">
    </FileRef>
 </Workspace>
